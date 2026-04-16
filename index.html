@@ -8,11 +8,11 @@
       name="description"
       content="Angor is decentralized Kickstarter: Bitcoin-native project funding with milestone releases and recoverable unspent funds."
     />
-    <meta name="theme-color" content="#f5f1e8" />
+    <meta name="theme-color" content="#f6f2ea" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
@@ -24,33 +24,56 @@
           <span class="brand-mark"></span>
           <span>Angor</span>
         </a>
-        <p class="header-note">Bitcoin-native crowdfunding</p>
+        <p class="header-note">Bitcoin-native crowdfunding protocol</p>
       </header>
 
       <main class="hero" id="top">
-        <p class="eyebrow">The only Bitcoin protocol for funding projects</p>
+        <div class="hero-grid">
+          <section class="hero-main">
+            <p class="eyebrow">The only Bitcoin protocol for funding projects</p>
 
-        <h1>
-          <span>DECENTRALIZED</span>
-          <span>KICKSTARTER</span>
-        </h1>
+            <h1>
+              <span class="headline-primary">DECENTRALIZED</span>
+              <span class="headline-secondary">KICKSTARTER</span>
+            </h1>
 
-        <p class="hero-copy">
-          Fund projects without a platform in the middle.
-        </p>
+            <p class="hero-copy">
+              Fund projects without a platform in the middle.
+            </p>
+          </section>
 
-        <div class="hero-actions">
-          <a class="button button-solid" href="https://angor.io/explore">Explore Projects</a>
-          <a class="button button-ghost" href="https://angor.io/launch">Get Funded</a>
+          <aside class="hero-aside" aria-label="Angor summary">
+            <p class="aside-intro">
+              Angor brings crowdfunding onto Bitcoin with milestone releases and recoverable
+              unspent funds.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-solid" href="https://angor.io/explore">Explore Projects</a>
+              <a class="button button-ghost" href="https://angor.io/launch">Get Funded</a>
+            </div>
+
+            <ul class="proof-list" aria-label="Core Angor strengths">
+              <li>
+                <span class="proof-label">Capital</span>
+                <strong>Bitcoin-native</strong>
+              </li>
+              <li>
+                <span class="proof-label">Release</span>
+                <strong>Milestone-based</strong>
+              </li>
+              <li>
+                <span class="proof-label">Protection</span>
+                <strong>Recover unspent funds</strong>
+              </li>
+            </ul>
+          </aside>
         </div>
 
-        <ul class="proof-strip" aria-label="Core Angor strengths">
-          <li>Bitcoin-native</li>
-          <li>Milestone releases</li>
-          <li>Recover unspent funds</li>
-        </ul>
-
-        <p class="closing-note">No intermediaries. No platform risk.</p>
+        <div class="bottom-note">
+          <p>No intermediaries. No platform risk.</p>
+          <p>Built on Bitcoin. Coordinated with Nostr.</p>
+        </div>
       </main>
     </div>
   </body>
